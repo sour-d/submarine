@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sky {
+    width: 100%;
+    height: 50%;
+}
+
+.sky div {
+    height: 20%;
+}
+
+.sky div:nth-child(1) {
+    background-color: rgba(161,211,247,1);
+}
+.sky div:nth-child(2) {
+    background-color: rgba(161,211,247,0.8);
+}
+.sky div:nth-child(3) {
+    background-color: rgba(161,211,247,0.6);
+}
+.sky div:nth-child(4) {
+    background-color: rgba(161,211,247,0.4);
+}
+.sky div:nth-child(5) {
+    background-color: rgba(161,211,247,0.2);
+}
+
+.water {
+    width: 100%;
+    height: 50%;
+    background-color: dodgerblue;
+}
+
+.submarine {
+    font-family: sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(41 102 163);
+    text-shadow: 1.5px 1.5px rgb(117 178 240);
+}
+
+.floating-top {
+    position: relative;
+    top: -100px;
+    left: 0px;
+}
